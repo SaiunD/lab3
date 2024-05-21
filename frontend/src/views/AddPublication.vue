@@ -81,11 +81,6 @@
           this.collection = '';
           this.field = '';
           
-          // Закриття модального вікна після додавання публікації
-          //$('#addPublicationModal').modal('hide');
-          
-          // Можна виконати додаткові дії після успішного додавання публікації, наприклад, оновлення списку публікацій
-           //this.$emit('publicationAdded', response.data);
            this.$router.push({ name: 'publications' });
 
         })
